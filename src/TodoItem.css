@@ -1,0 +1,30 @@
+.TodoItem {
+    background-color: rgb(7, 74, 89);
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TodoItem.complete {
+    /*text-decoration: line-through;*/
+    background-color: rgb(102, 184, 102);
+}
+
+/* Styling the TodoContent div (the clickable area except delete button) */
+.TodoContent {
+    flex-grow: 1;
+}
+
+button.delete {
+    background: rgb(255, 46, 46);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    vertical-align: middle;
+}
