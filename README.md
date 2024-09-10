@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Todo List - React
+
+Add, remove and mark tasks as completed.
+
+![](https://raw.githubusercontent.com/paull28/react-todo/main/example.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
